@@ -1,0 +1,109 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proyect_t.demo01.Activity_Sign_Up"
+    android:scrollbars="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ff202020">
+
+        <EditText
+        android:id="@+id/nombre"
+        android:hint="@string/nombre"
+            android:layout_marginTop="40dp"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            style="@style/EditText1"/>
+    <EditText
+        android:id="@+id/apellido"
+        android:hint="@string/apellido"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        style="@style/EditText1"/>
+
+        <RadioGroup
+            android:id="@+id/genero"
+            android:orientation="vertical"
+            style="@style/RadioButton">
+
+            <RadioButton
+                android:id="@+id/masculino"
+                android:text="@string/masculino"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/femenino"
+                android:text="@string/femenino"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edad"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="@string/edad"
+            style="@style/EditText1"/>
+
+        <EditText
+        android:id="@+id/telefono"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+            android:maxLength="8"
+            style="@style/EditText1"/>
+    <EditText
+        android:id="@+id/correo"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:maxLength="75"
+        style="@style/EditText1"/>
+
+        <Spinner
+            android:prompt="@string/spnopciones"
+            android:entries="@array/opciones"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="#84cc34"
+            android:textSize="20sp"
+            android:background="@drawable/abc_spinner_mtrl_am_alpha"
+            android:spinnerMode="dropdown"
+            android:id="@+id/municipios">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/direccion"
+            android:hint="@string/direccion"
+            style="@style/EditText2"/>
+
+        <EditText
+        android:id="@+id/contrasena"
+        android:hint="@string/contrasena"
+        android:inputType="textPassword"
+            android:maxLength="100"
+            style="@style/EditText1"/>
+
+    <EditText
+        android:id="@+id/contrasena2"
+        android:hint="Confirmar Contrasena"
+        android:inputType="textPassword"
+        android:layout_marginBottom="50dp"
+        android:maxLength="100"
+        style="@style/EditText1"/>
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btnguardar"
+        android:textColor="#fffffefc"
+        android:layout_marginBottom="20dp"
+        android:hint=""
+        android:shadowColor="#ff373839"
+        android:background="#ff3c3c3c" />
+</LinearLayout>
+</ScrollView>

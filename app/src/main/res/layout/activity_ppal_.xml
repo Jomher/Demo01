@@ -1,0 +1,73 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="PrincipalActivity"
+    android:orientation="vertical"
+    android:background="#ff202020">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:id="@+id/txtusuario"
+        android:gravity="center"
+        android:textColorHint="#ffe18aff"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/txtclave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/clave"
+        android:gravity="center"
+        android:textColorHint="#ffe792ff"
+        android:inputType="textPassword"
+        android:textColorHighlight="#fff8f9ff"
+        android:textColor="#ffffffff"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtusuario"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnautenticar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splashtxtsend"
+        android:textColor="#fffffefc"
+        android:layout_marginBottom="63dp"
+        android:layout_above="@+id/txtetiqueta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtetiqueta"
+        android:text="@string/etiqueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="15dp"
+        android:textColor="#ffc64aff"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:id="@+id/textView2"
+        android:textColor="#ffffffff"
+        android:textSize="40dp"
+        android:theme="@android:style/Animation.Activity"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:freezesText="false" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="EditText1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#ff7b7978</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="EditText2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#ff7b7978</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ems">100</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#ff7b7978</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

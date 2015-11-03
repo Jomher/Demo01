@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Project T</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ppal_">Ppal_Activity</string>
+    <string name="etiqueta">No tienes una cuenta?</string>
+    <string name="splashtxtsend">Entrar</string>
+    <string name="usuario">Correo</string>
+    <string name="clave">Clave</string>
+    <string name="title_activity_sign__up_">Registrate</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="edad">Edad</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Telefono</string>
+    <string name="masculino">Hombre</string>
+    <string name="femenino">Mujer</string>
+    <string name="direccion">Direccion</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contrasena</string>
+    <string name="btnguardar">Guardar</string>
+
+
+    <string name="spnopciones">Municipios</string>
+    <string-array name="opciones">
+        <item>San Salvador</item>
+        <item>Mejicanos</item>
+        <item>San Marcos</item>
+        <item>Santa Tecla</item>
+        <item>Antiguo Cuscatlan</item>
+        <item>Soyapango</item>
+    </string-array>
+    <string name="title_activity_lista_clientes">ListaClientes</string>
+
+</resources>
